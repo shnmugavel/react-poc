@@ -1,16 +1,6 @@
-$(document).ready(function(){
 
-  $('.menu').on('click', function(){
-    $(this).toggleClass('open');
-  });
 
-  $('.thumbnail').on('click', function(){
-    $('.pop-up').fadeIn(100);
-  });
-
-  $(".rslides").responsiveSlides();
-  alert('ok');
-
-  
-
-});
+ReactDOM.render(
+  React.DOM.h1(null, "Hello World!"),
+  document.getElementById("app")
+);
